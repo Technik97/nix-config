@@ -1,0 +1,14 @@
+[[language]]
+name = "rust"
+auto-format = true
+language-servers = [ "rust-analyzer" ]
+
+[[language]]
+name = "lua"
+auto-format = true
+language-servers = [ "lua-language-server" ] 
+
+[[language]]
+name = "nix"
+auto-format = true
+language-servers = ["nil"]
