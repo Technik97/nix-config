@@ -5,6 +5,7 @@
   imports = [
     ./home/programs/shell
     ./home/programs/kitty
+    ./home/programs/helix
     #./home/programs/neovim
   ];
 
