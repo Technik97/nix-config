@@ -1,0 +1,10 @@
+theme = "gruvbox-dark"
+
+[editor]
+line-number = "relative"
+auto-format = true
+true-color = true
+
+[keys.normal]
+C-s = ":w"
+C-q = ":q"
