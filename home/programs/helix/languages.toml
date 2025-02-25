@@ -6,9 +6,12 @@ language-servers = [ "rust-analyzer" ]
 [[language]]
 name = "lua"
 auto-format = true
-language-servers = [ "lua-language-server" ] 
+indent = { tab-width = 4, unit = "    " } 
 
 [[language]]
 name = "nix"
 auto-format = true
 language-servers = ["nil"]
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
